@@ -6,9 +6,9 @@ import './App.css';
 function App() {
 
   const [todos, setTodos] = useState([
-    { description: 'Create main folder', status: 'pending' }, 
-    { description: 'Finish project', status: 'pending' }, 
-    { description: 'Finish this homework', status: 'pending' }
+    { description: 'Tarea 1', status: 'pending' }, 
+    { description: 'Tarea 2', status: 'pending' }, 
+    { description: 'Tarea 3', status: 'pending' }
   ])
 
   const addTodo = (description) => {
